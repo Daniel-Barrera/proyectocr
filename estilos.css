@@ -1,0 +1,54 @@
+{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+	background: #204862;	
+}
+
+
+
+.form-register{
+	white:95%;
+	max-width:600px;
+	margin:auto;
+	background: white;
+	border-radius: 7px;
+	
+	
+}
+.form_titulo{
+	 background:deepskyblue;
+	 color: #fff;
+	 padding:20px;
+	 text-align:center;
+	 font-weight:100;
+	 font-size:30px;
+	 border-top-right-radius:7px;
+	 border-bottom:5px solid crimson;
+}
+
+
+.contenedor-inputs{
+	padding:10px 30px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+input{
+	margin-bottom:15px;
+	padding:15px;
+	font-size:16px;
+	border-radius:3px;
+	border:1px solid darkgray;
+}
+.input-48{
+	width:48%;
+}
+.input-100{
+	width:100%;
+}
+
